@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.formContainer {
+  width: 400px;
+  background-color: #bdd1c5;
+  margin-top: 25px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+body {
+  background-image: url(../imagens/backgroundimage.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.formLogo {
+  width: 300px;
+  height: 8vh;
+}
+@media (max-width: 425px) {
+  .formContainer {
+    width: 350px;
+  }
+  .formLogo {
+    width: auto;
+  }
+}
+@media (max-width: 370px) {
+  .formContainer {
+    width: 300px;
+  }
+  .formLogo {
+    width: auto;
+  }
+}
