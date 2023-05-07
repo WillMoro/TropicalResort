@@ -1,12 +1,13 @@
+.mainContent {
+  background-image: url(../imagens/backgroundimage.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .formContainer {
   width: 400px;
   background-color: #bdd1c5;
-  margin-top: 25px;
+
   border-radius: 10px;
-  margin-bottom: 20px;
-}
-body {
-  background-color: black;
 }
 .formLogo {
   width: auto;
@@ -20,7 +21,6 @@ body {
   .formContainer {
     width: 320px;
     font-size: 12px;
-    margin-top: 20px;
   }
 }
 @media (max-width: 370px) {
