@@ -17,93 +17,96 @@
       type="image/x-icon" />
     <title>Faça sua reserva!</title>
   </head>
-
+  <style>
+    body {
+      background-image: url(./imagens/backgroundimage.avif);
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-image-width: auto;
+    }
+  </style>
   <body>
-    <div class="container-fluid mainContent">
-      <div class="container-fluid py-5 px-5 formContainer">
-        <header class="text-center">
-          <img
-            src="./imagens/tropicalLogo.png"
-            alt="formLogo.png"
-            class="formLogo img-fluid" />
-        </header>
-        <form>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label"
-              >Seu email:</label
-            >
+    <div class="container-fluid px-5 py-3 mt-3 formContainer">
+      <header class="text-center">
+        <img
+          src="./imagens/tropicalLogo.png"
+          alt="formLogo.png"
+          class="formLogo img-fluid" />
+      </header>
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Seu email:</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp" />
+          <div id="emailHelp" class="form-text">
+            Suas informações estão seguras conosco.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="phoneNumber" class="phoneNumberLabel">
+            Número de telefone
+          </label>
+
+          <div class="mt-2">
             <input
-              type="email"
+              type="text"
               class="form-control"
               id="exampleInputEmail1"
               aria-describedby="emailHelp" />
-            <div id="emailHelp" class="form-text">
-              Suas informações estão seguras conosco.
-            </div>
           </div>
-          <div class="mb-3">
-            <label for="phoneNumber" class="phoneNumberLabel">
-              Número de telefone
-            </label>
-
-            <div class="mt-2">
-              <input
-                type="text"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp" />
-            </div>
-          </div>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="radio"
-              name="flexRadioDefault"
-              id="flexRadioDefault1" />
-            <label class="form-check-label" for="flexRadioDefault1">
-              Quarto Simples
-            </label>
-          </div>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="radio"
-              name="flexRadioDefault"
-              id="flexRadioDefault1" />
-            <label class="form-check-label" for="flexRadioDefault1">
-              Suíte
-            </label>
-          </div>
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="radio"
-              name="flexRadioDefault"
-              id="flexRadioDefault1" />
-            <label class="form-check-label" for="flexRadioDefault1">
-              Quarto para Casal
-            </label>
-          </div>
-          <select class="form-select" aria-label="Default select example">
-            <option selected disabled>Quantas noites?</option>
-            <option value="1">Uma noite</option>
-            <option value="2">2 a 3 noites</option>
-            <option value="3">3 ou mais noites</option>
-          </select>
-          <div class="checkIn mt-3">
-            <label for="checkInDate"> Data de Check-In </label>
-            <p></p>
-            <input type="date" />
-          </div>
-          <div class="text-center mt-2">
-            <button type="submit" class="btn btn-outline-light mt-3">
-              Enviar
-            </button>
-          </div>
-        </form>
-      </div>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1" />
+          <label class="form-check-label" for="flexRadioDefault1">
+            Quarto Simples
+          </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1" />
+          <label class="form-check-label" for="flexRadioDefault1">
+            Suíte
+          </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1" />
+          <label class="form-check-label" for="flexRadioDefault1">
+            Quarto para Casal
+          </label>
+        </div>
+        <select class="form-select" aria-label="Default select example">
+          <option selected disabled>Quantas noites?</option>
+          <option value="1">Uma noite</option>
+          <option value="2">2 a 3 noites</option>
+          <option value="3">3 ou mais noites</option>
+        </select>
+        <div class="checkIn mt-3">
+          <label for="checkInDate"> Data de Check-In </label>
+          <p></p>
+          <input type="date" />
+        </div>
+        <div class="text-center mt-2">
+          <button type="submit" class="btn btn-outline-light mt-3">
+            Enviar
+          </button>
+        </div>
+      </form>
     </div>
-    <footer class="text-center">
+    <footer class="text-center footer">
       <span class="me-4 copyOBC"> WillMorais &copy;2023 </span>
       <a
         href="https://www.instagram.com/wil_moro/"
