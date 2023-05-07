@@ -22,6 +22,11 @@ body {
   height: 8vh;
 }
 
+.footerAnchor {
+  text-decoration: none;
+  color: black;
+}
+
 @media (max-width: 425px) {
   .formContainer {
     width: 350px;
@@ -35,7 +40,7 @@ body {
     width: 300px;
   }
   .formLogo {
-    width: auto;
+    width: 200px;
   }
 }
 
